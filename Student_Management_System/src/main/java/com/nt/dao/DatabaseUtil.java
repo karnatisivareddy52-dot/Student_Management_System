@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DatabaseUtil
 {
-    //private static final String URL = "jdbc:mysql://localhost:3306/srinudb";
+    
 	private static final String URL = "jdbc:mysql://localhost:3306/srinudb?useSSL=false&allowPublicKeyRetrieval=true";
 
     private static final String USER = "root";
