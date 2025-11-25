@@ -5,13 +5,20 @@ public class Student
  
 	private int id;
 	private String name;
-	private char grade;
-	public Student(int id, String name, char grade)
+	private String grade;
+	public Student(int id, String name, String grade)
 	{
 		super();
 		this.id = id;
 		this.name = name;
 		this.grade = grade;
+	}
+	
+	public Student(int id, String name)
+	{
+		super();
+		this.id = id;
+		this.name = name;
 	}
 	public int getId()
 	{
@@ -29,11 +36,11 @@ public class Student
 	{
 		this.name = name;
 	}
-	public char getGrade() 
+	public String getGrade() 
 	{
 		return grade;
 	}
-	public void setGrade(char grade)
+	public void setGrade(String grade)
 	{
 		this.grade = grade;
 	}
