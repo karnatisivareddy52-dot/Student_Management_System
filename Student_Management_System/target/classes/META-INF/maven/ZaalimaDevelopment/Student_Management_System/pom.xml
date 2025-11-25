@@ -44,13 +44,13 @@
     
     
     
-    <!-- https://mvnrepository.com/artifact/org.eu.acolyte/jdbc-driver -->
+     
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
-    <groupId>org.eu.acolyte</groupId>
-    <artifactId>jdbc-driver</artifactId>
-    <version>1.1.0</version>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.14</version>
 </dependency>
-    
     
  
     
